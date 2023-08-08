@@ -1,0 +1,44 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: cornflowerblue;
+    font-size: large;
+    color: aliceblue;
+}
+.logo{
+    flex-grow: 1;
+    margin: 10px 10px;
+}
+.link-tabs{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    align-items: center;
+    
+}
+.logout-btn{
+    border: none;
+    mix-blend-mode: multiply;
+    
+}
+
+a:-webkit-any-link{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+.link{
+    margin-top: 10px;
+}
+.link-tabs>div{
+    padding: 10px;
+}
+.link-tabs>div:hover{    
+    background-color: aquamarine;
+    transition: 0.75s;
+}

@@ -1,0 +1,58 @@
+/* *{
+    border : 1px solid red;
+} */
+.todo-task{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    margin: 1rem;
+    padding:1.5rem;
+    border-radius: 2rem;
+    align-items: center;
+}
+.description{
+    color: rgba(0, 0, 0, 0.536);
+}
+.info{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ align-content: start;
+ font-size: larger;
+ flex-grow: 2;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+.checkbox{
+    width: 1.3rem;
+    margin: 1rem;
+}
+.checkbox:disabled{
+    cursor: not-allowed;
+    background-color: #474545;
+}
+.buttons>button{
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: aquamarine;
+    font-size: medium;
+    box-shadow: 0 9px #e0bbbb;
+}
+
+.buttons>button:hover{
+    background-color: rgb(104, 251, 141);
+    cursor: pointer;
+}
+.buttons>button:disabled{
+    cursor:not-allowed;
+    box-shadow: none;
+    opacity: 0.75;
+    transform: translateY(4px);
+}
+.buttons>button:active{
+    transform: translateY(4px);
+    box-shadow: 0 2px #474545;
+}
